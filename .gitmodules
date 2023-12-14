@@ -1,0 +1,6 @@
+[submodule "modules"]
+	path = modules
+	url = https://github.com/rabbenhuis/certificate-authority-modules.git
+[submodule "live"]
+	path = live
+	url = https://github.com/rabbenhuis/certificate-authority-live.git
