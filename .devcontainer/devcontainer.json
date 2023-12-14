@@ -13,7 +13,16 @@
 			"installDockerBuildx": true,
 			"version": "latest",
 			"dockerDashComposeVersion": "v2"
-		}
+		},
+		"ghcr.io/devcontainers/features/terraform:1": {
+			"version": "latest",
+			"tflint": "latest",
+			"terragrunt": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/terraform-ls-asdf:2": {
+			"version": "latest"
+		},
+		"ghcr.io/dhoeric/features/terraform-docs:1": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
